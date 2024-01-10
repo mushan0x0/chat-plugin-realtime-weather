@@ -11,7 +11,6 @@ const fetchCityCode = async (keywords: string): Promise<string> => {
   const res = await fetch(URL);
 
   const data = await res.json();
-  console.log('data', data);
 
   return data.districts[0].adcode;
 };
