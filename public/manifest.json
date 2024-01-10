@@ -8,7 +8,7 @@
       "parameters": {
         "properties": {
           "city": {
-            "description": "城市名称",
+            "description": "中文的城市名称",
             "type": "string"
           }
         },
