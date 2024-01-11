@@ -10,6 +10,7 @@ export default async (req: Request) => {
   if (req.method !== 'POST') return createErrorResponse(PluginErrorType.MethodNotAllowed);
 
   const args = await req.json();
+  console.log(args);
 
   const result = await fetchWeather(args);
 

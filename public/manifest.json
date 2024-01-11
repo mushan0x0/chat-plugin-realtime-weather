@@ -9,7 +9,8 @@
         "properties": {
           "city": {
             "description": "中文的城市名称",
-            "type": "string"
+            "type": "string",
+            "examples": ["上海", "杭州"]
           }
         },
         "required": ["city"],
