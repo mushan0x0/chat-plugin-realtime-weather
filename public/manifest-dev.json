@@ -8,8 +8,9 @@
       "parameters": {
         "properties": {
           "city": {
-            "description": "城市名称",
-            "type": "string"
+            "description": "中文的城市名称",
+            "type": "string",
+            "examples": ["上海", "杭州"]
           }
         },
         "required": ["city"],
@@ -28,7 +29,6 @@
     "title": "Realtime Weather DEV",
     "description": "Get realtime weather information"
   },
-  "systemRole": "在查询天气时需要将城市名称翻译为中文",
   "ui": {
     "url": "http://localhost:3410/iframe",
     "height": 310,

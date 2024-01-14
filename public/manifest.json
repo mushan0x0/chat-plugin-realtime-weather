@@ -8,8 +8,9 @@
       "parameters": {
         "properties": {
           "city": {
-            "description": "城市名称",
-            "type": "string"
+            "description": "中文的城市名称",
+            "type": "string",
+            "examples": ["上海", "杭州"]
           }
         },
         "required": ["city"],
@@ -27,7 +28,6 @@
     "title": "Realtime Weather",
     "description": "Get realtime weather information"
   },
-  "systemRole": "在查询天气时需要将城市名称翻译为中文",
   "ui": {
     "url": "https://realtime-weather.chat-plugin.ai0x0.com/iframe",
     "height": 310
